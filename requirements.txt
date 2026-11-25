@@ -1,0 +1,14 @@
+# TeleAbstain v1.0 - the package versions the release was tested with (Python 3.13).
+
+# Checking the files, re-proving the answer keys and scoring
+pyang==2.7.1
+
+# The tests
+pytest==8.3.4
+
+# The two local judges (install the build of torch that matches your graphics card)
+torch==2.8.0
+transformers==5.14.1
+
+# The third judge
+anthropic==0.120.2
